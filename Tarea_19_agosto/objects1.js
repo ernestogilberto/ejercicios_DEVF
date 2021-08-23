@@ -6,7 +6,7 @@ var student = {
     sclass: "VI",
     rollno: 12
 };
-
-console.log(student.name, student.sclass, student.rollno)
+let studentKeys = Object.keys(student)
+console.log(studentKeys);
 
 // Sample Output: name,sclass,rollno
