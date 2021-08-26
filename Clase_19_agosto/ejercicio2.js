@@ -12,9 +12,9 @@ Add any type of element on the object.. arrays, objects, int, strings, etc*/
 const myObject = {
     dinero: 200,
     nombre: "Gilberto",
-    addProperty: function(property2, value2){
-        Object.defineProperty(this, property2, {
-            value:value2,
+    addProperty: function(property, value){
+        Object.defineProperty(this, property, {
+            value:value,
             writable: false,
             configurable: true,
             enumerable:true
